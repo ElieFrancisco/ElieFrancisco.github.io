@@ -42,7 +42,22 @@
 *::after {
   box-sizing: border-box;
 }
-
+/* google map responsive */
+.map-responsive {
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;>
+  height:0;
+  }
+  
+  .map-responsive iframe {
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+  }
+/* fin google map responsive */
 @media (prefers-reduced-motion: no-preference) {
   :root {
     scroll-behavior: smooth;
@@ -10880,7 +10895,7 @@ h6,
 
 h1, .h1 {
   line-height: 1;
-  letter-spacing: 26px;
+  letter-spacing: 16px;
 }
 
 p.lead {
